@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sniglet', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.frase-topo{
+    background-color: #131622;
+    width: 100%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.frase-topo p{
+    color: white;  
+}
+.frase-topo span{
+    color: #FFDD73;  
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section{
+    height: 100vh;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-one{
+    background-image: url(../assets/bg2.png);
+    font-size: x-large;
+    color: white;
+    flex-direction: column;
+}
+
+#titulo-grande{
+    font-size: xx-large;
+}
+
+.section-two{
+    background-image: url(../assets/bg1.png);
+    flex-direction: column;
+}
+
+.section-two img{
+    width: 15%;
+    margin: 25px;
+    border-radius: 50%;
+    border: 5px solid #FFDD73;
+}
+
+.section-two div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two div div{
+    flex-direction: column;
+}
+
+.section-three{
+    background-image: url(../assets/bg2.png);
+    font-size: xx-large;
+    color: white;
+}
+
+.section-three img{
+    width: 25%;
+    margin: 25px;
+}
+
+.logo{
+    width: 50%;
+    margin: 25px;
+}
+
+.faixa-amarela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 25px 0px;
+    background-color: #FFDD73;
+    color: #131622;
+}
+
+.borda {
+    font-size: xx-large;
+    color:#131622; 
+    text-shadow:#FFDD73 3px -3px, #FFDD73 -3px 3px, #FFDD73 3px 3px, #FFDD73 -3px -3px;
+}
+
+.propaganda-container {
+    color: #FFDD73;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.propaganda-container img {
+    width: 50%;
+}
+
+.card-container{
+    background-color: #FFDD73;
+    color: #131622;
+    border-radius: 20%;
+    padding: 40px;
+    max-width: 600px;
+    margin: 10%;
+    font-size: large;
+}
+
+.card-container p{
+    margin: 20px 0px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+    border-radius: 12px;
+    background-color: #68C4FE;
+    color: white;
+    border: none;
+}
+
+#submit{
+    background-color: #131622;
+}
+
+#submit :hover{
+    color: #68C4FE;
+}
+
+footer{
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: #131622;
+    color: #FFDD73;
+}
