@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Sniglet', cursive;
+    text-align: center;
 }
 
 html{
@@ -48,6 +49,7 @@ html{
 
 #titulo-grande{
     font-size: xx-large;
+    padding: 0px 20px;
 }
 
 .section-two{
@@ -154,9 +156,89 @@ input{
 }
 
 footer{
-    height: 50px;
-    padding: 25px;
+    height: 30px;
+    padding: 10px;
     text-align: center;
-    background-color: #131622;
-    color: #FFDD73;
+    background-color: #FFDD73;
+    color: #131622;
+}
+
+@media screen and (max-width:640px){
+    .frase-topo{
+        width:auto;
+        font-size: large;
+        display: flex;
+        padding: 20px 0px;
+    }
+
+    .faixa-amarela{
+        font-size: medium;
+    }
+
+    .section-one{
+        font-size: medium;
+        height: 50vh;
+    }
+
+    #titulo-grande{
+        font-size: large;
+    }
+
+    .logo{
+        width: 70%;
+        margin: 20px 0px;
+    }
+
+    .section-one{
+        width:auto;
+    }
+
+    .section-three{
+        width:auto;
+        font-size: large;
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .card-container{
+        width:auto;
+        background-color: #FFDD73;
+        color: #131622;
+        border-radius: 15%;
+        padding: 20px 10px;
+        max-width: 250px;
+        margin: 5% 0%;
+        font-size: medium;
+    }
+
+    .section-two img{
+        width: 20%;
+        margin: 20px 5px;
+    }
+
+    .section-two{
+        height: fit-content;
+        width:auto;
+    }
+
+    
+
+    .borda {
+        font-size: large;
+        padding-top: 20px;
+    }
+
+    .propaganda-container {
+        margin: 5% 0%;
+        width:auto;
+    }
+
+    .faixa-amarela{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        padding: 25px 0px;
+        width:auto;
+    }
 }
